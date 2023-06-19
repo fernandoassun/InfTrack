@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>InfTrack - Chip's rastreadores</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/SemFundo (1).png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#services">Serviços</a></li>
+              <li class="scroll-to-section"><a href="#about">Sobre</a></li>
+              <li class="scroll-to-section"><a href="#pricing">Planos</a></li>
+              <li class="scroll-to-section"><a href="#newsletter">Contato</a></li>
+              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Login</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Conectar com Facebook</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-play"></i></span>
+                    <span class="icon_title">Conectar com o Google</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>Ou utilize seu E-mail</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Cadastrar</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form>
+                <label>Email / Username</label>
+                <input type="text" />
+                <br />
+
+                <label>Senha</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Lembrar deste aparelho</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Esqueceu a senha?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form>
+                <label>Nome Completo</label>
+                <input type="text" />
+                <br />
+
+                <label>Endereço de E-mail</label>
+                <input type="email" />
+                <br />
+
+                <label>Senha</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Enviar atualizações pelo E-mail</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Registrar</a></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>InfTrack</h2>
+                    <p>Garanta segurança e controle do seu Pet 24 Horas, a qualquer momento e em qualquer lugar na palma de sua mão </p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="comece-button first-button scroll-to-section">
+                      <a href="#Pricing"> <i class=""></i></a>
+                    </div>
+                  <div class="white-button scroll-to-section">
+                      <a href="#pricing">Conheça Agora <i class="fab fa-google-play"></i></a>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/pngtree-flat-wind-chip-png-image_5403738.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4><em>Conheça os Serviços da InfTrak para você.</em></h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>Entradas</h4>
+            <p>Compras, gestão de contratos e recebimento de matérias</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Produção</h4>
+            <p>Verificação de qualidade, manutenção industrial.</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>Financias</h4>
+            <p>Fluxo de vendas e Faturamento, contas a pagar e a receber</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item fourth-service">
+            <div class="icon"></div>
+            <h4>Suport 24 Horas</h4>
+            <p>Ajuda para qualquer dúvida e/ou problemas que possa ocorrer.</p>
+            <div class="text-button">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4> <em>Sobre nós</em></h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p><em>Nossa empresa visa a transparencia com nossos cliente, aqui estão algumas das vantagens de utilizar nosso sistema.</em> 😀</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="https://akiratek.com.br/wp-content/uploads/2019/01/Manutenção-do-celular-Akiratek.jpg" target="_blank">Manutenção de Falhas</a></h4>
+                <p>Sempre estamos dispostos a atender e resolver falhas em nosso sistema</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="https://www.traineerh.com/wp-content/uploads/2018/07/telemarketing.jpg" target="_blank">Suporte 24H</a></h4>
+                <p>Atendentes disponiveis 24 horas para poder te ajudar.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="assets/images/Feedback-InfTack.png" target="_blank">Feedback</a></h4>
+                <p>Estamos sempre abertos a Feedback de como podemos sermos melhores</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="https://www.grupohatikva.com.br/wp-content/uploads/2017/04/14225402_353305605014868_7938878323679322516_n.png" target="_blank">Desenvolvedores</a></h4>
+                <p>Uma equipe rigorosamente selecionada para melhor experiência</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <p>Somos referência quando falamos em transparencia e tecnologia. Sempre foi nossa meta ter um serviço que atendesse a todo tipo de cliente.</p>
+              <div class="gradient-button">
+                <a href="assets/images/Cartão.jpg" target="_blank">Faça um teste de 14 dias gratis </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/about-right-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Aqui estão nossos <em>Planos Anuais</em> que você pode adquirir</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Temos três planos com seus beneficios unicos, escolha um e começe já.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">R$48,14</span>
+            <h4>Plano Standard</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Alteração de cor do Sistema</li>
+              <li>20 TB de armazenagem adicional</li>
+              <li class="non-function">Atendimento via WhatsApp</li>
+              <li class="non-function">Anuncios desativados</li>
+              <li class="non-function">Mais opções</li>
+            </ul>
+            <div class="border-button">
+              <a href="assets/images/PagamentoPix.PNG" target="_blank">Adquira agora este Plano</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <span class="price">R$120,34</span>
+            <h4>Plano Business</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Alteração de cor do Sistema e do produto</li>
+              <li>50 TB de armazenagem adicional</li>
+              <li>Atendimento via WhatsApp</li>
+              <li>Anuncios desativados</li>
+              <li class="non-function">Operador Presencial</li>
+              <li class="non-function">Mais opções</li>
+            </ul>
+            <div class="border-button">
+              <a href="assets/images/PagamentoPix.PNG" target="_blank">Adquira agora este Plano</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">R$200,00</span>
+            <h4>Plano Premium</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Alteração de cor do Sistema e do produto</li>
+              <li>120 TB de armazenagem adicionale</li>
+              <li>Atendimento via WhatsApp</li>
+              <li>Anuncios desativados</li>
+              <li>Operador Presencial</li>
+              <li>Mais opções</li>
+            </ul>
+            <div class="border-button">
+              <a href="assets/images/PagamentoPix.PNG" target="_blank">Adquira agora este Plano</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Informe seu endereço E-mail para receber novidades &amp; possiveis alterações</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">Enviar Agora <i class="fa fa-angle-right"></i></button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Contate-nos</h4>
+            <p>Av. Advogado Horácio Raccanello Filho, 5950 - Zona 7, Maringá - PR, 87020-035</p>
+            <p><a href="#">010-020-0340</a></p>
+            <p><a href="#">InfTrack@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Planos</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Direitos Autorais</h4>
+            <div class="logo">
+              <img src="assets/images/white-logo.png" alt="">
+            </div>
+            <p>Template utilizado por meio educativo, com Copyrght da Chain App Dev Company </p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
+          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
